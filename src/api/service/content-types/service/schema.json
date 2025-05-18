@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "services"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "description_en": {
+      "type": "text"
+    },
+    "content_en": {
+      "type": "richtext"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "description_ar": {
+      "type": "text"
+    },
+    "content_ar": {
+      "type": "richtext"
+    }
+  }
+}

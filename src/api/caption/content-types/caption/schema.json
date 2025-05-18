@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "captions",
+  "info": {
+    "singularName": "caption",
+    "pluralName": "captions",
+    "displayName": "captions",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "text_en": {
+      "type": "text"
+    },
+    "text_ar": {
+      "type": "text"
+    }
+  }
+}

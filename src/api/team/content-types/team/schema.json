@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "teams",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name_en": {
+      "type": "string"
+    },
+    "position_en": {
+      "type": "string"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "position_ar": {
+      "type": "string"
+    },
+    "profile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "testimonials",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name_en": {
+      "type": "string"
+    },
+    "text_en": {
+      "type": "text"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "text_ar": {
+      "type": "text"
+    }
+  }
+}
